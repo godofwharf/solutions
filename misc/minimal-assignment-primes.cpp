@@ -1,10 +1,10 @@
-/* Solution to a problem which I conceived myself.
+/* 
+Solution to a problem which I conceived myself.
 Walt recently discovered his passion for Mathematics. He is particularly interested in prime numbers. 
 He has become so obsessed that he wants every batch to contain exactly p pounds of crystal meth, where p is a prime. 
 Jesse has already cooked N batches. All the N batches contain some integer amount of pounds of crystal meth. 
 In one move, Walt can transfer 1 pound from one batch to another batch. He wants to figure out the minimum number of moves 
-required so as to make all the batches contain prime amount of pounds of crystal meth. He knows that it is not possible always. 
-Will you help him?
+required so as to make all the batches contain prime amount of pounds of crystal meth. He knows that it is not possible always. Will you help him?
 
 Input:
 The first line contains the number of testcases T.
@@ -35,7 +35,7 @@ Sample Output:
 
 Solution Complexity: O(SlgS(lglgS) + L * N^3 + S * lg(S/lgS)) 
 S - Sum of the amounts in all batches
-L - Number of ways to paritition S into a set of distinct primes
+L - Number of ways to paritition S into a set of distinct primes */
 
 #include <iostream>
 #include <cstring>
